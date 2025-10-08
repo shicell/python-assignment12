@@ -32,7 +32,3 @@ def update_graph(symbol): # This function is what actually does the plot, by cal
 # Run the app
 if __name__ == "__main__": # if this is the main module of the program, and not something included by a different module
     app.run(debug=True) # start the Flask web server
-
-# Run the app
-if __name__ == "__main__": 
-    app.run(debug=True) 
